@@ -1,0 +1,6 @@
+services:
+  - name: for_him
+    type: web
+    env: python3
+    buildCommand: ./build.sh
+    startCommand: gunicorn fpr_him.wsgi:application
