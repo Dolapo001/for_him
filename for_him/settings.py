@@ -86,9 +86,9 @@ WSGI_APPLICATION = 'for_him.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         default="postgresql://for_him_user:rmIz6VfLoCpmoaH79YzYlO2fNhVExt0G@dpg-csn13bhu0jms73futvh0-a.frankfurt-postgres.render.com/for_him",
-
     )
 }
+
 
 
 # Password validation
