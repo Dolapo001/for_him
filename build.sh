@@ -1,5 +1,2 @@
-set -o errexit
-
-pip install -r requiremennts.txt
-
-python manage.py collectstatic --no-input
+pip install -r requirements.txt
+python3.12 manage.py collectstatic --noinput
